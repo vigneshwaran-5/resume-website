@@ -1,0 +1,30 @@
+# Local agent / editor tooling
+.claude/
+.vscode/
+.idea/
+*.code-workspace
+
+# OS cruft
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# Logs and temp files
+*.log
+npm-debug.log*
+*.tmp
+*.bak
+*~
+
+# Dependencies and build output (only if tooling is added later)
+node_modules/
+dist/
+build/
+.cache/
+
+# Local environment
+.env
+.env.*
