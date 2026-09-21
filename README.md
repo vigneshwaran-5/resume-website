@@ -5,8 +5,7 @@ Senior Software Engineer and Python Generative AI Engineer.
 
 ## Live site
 
-Not yet deployed. Add the GitHub Pages URL here once the site is published
-(see [Deployment](#deployment)).
+<https://vigneshwaran-5.github.io/resume-website/>
 
 ## Features
 
@@ -68,8 +67,9 @@ directly from a branch.
 4. Wait for the Pages build to finish and open the generated URL.
 5. Test navigation, the LinkedIn link, the mail and phone links, and the PDF
    download on the live URL, and check developer tools for 404s.
-6. Once the URL is stable, add the canonical link and Open Graph metadata to
-   `index.html` and record the URL in the [Live site](#live-site) section above.
+Pushing to `main` republishes the site automatically; no further action is
+needed. The canonical link and Open Graph metadata in `index.html` are already
+set to the live URL, so update them if the repository or account is ever renamed.
 
 `.nojekyll` is present so GitHub Pages serves the files as-is rather than
 running them through Jekyll.
